@@ -2814,8 +2814,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 351311bb-3268-4bcb-bbf4-ddc178223b1f)
     (property "Reference" "D6" (id 0) (at 300.0375 43.18 0))
-    (property "Value" "D_Schottky" (id 1) (at 300.0375 45.72 0))
-    (property "Footprint" "Diode_SMD:D_1812_4532Metric" (id 2) (at 299.72 49.53 0)
+    (property "Value" "RB161QS-40" (id 1) (at 300.0375 45.72 0))
+    (property "Footprint" "Diode_SMD:D_0402_1005Metric" (id 2) (at 299.72 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 299.72 49.53 0)
@@ -4018,8 +4018,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e71c45d6-c81d-4298-b2c4-54f273ae81a6)
     (property "Reference" "P1" (id 0) (at 256.54 41.91 0))
-    (property "Value" "USB_C_Plug_USB2.0" (id 1) (at 256.54 44.45 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_CNCTech_C-ARA1-AK51X" (id 2) (at 260.35 64.77 0)
+    (property "Value" "USB4105-GF-A" (id 1) (at 256.54 44.45 0))
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal" (id 2) (at 260.35 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 260.35 64.77 0)
@@ -4525,7 +4525,7 @@
       (reference "D5") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/351311bb-3268-4bcb-bbf4-ddc178223b1f"
-      (reference "D6") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_1812_4532Metric")
+      (reference "D6") (unit 1) (value "RB161QS-40") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/7bcdada4-b9e5-4f91-9f48-909e88f9fc6f"
       (reference "D7") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
@@ -4540,7 +4540,7 @@
       (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
     )
     (path "/e71c45d6-c81d-4298-b2c4-54f273ae81a6"
-      (reference "P1") (unit 1) (value "USB_C_Plug_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_CNCTech_C-ARA1-AK51X")
+      (reference "P1") (unit 1) (value "USB4105-GF-A") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal")
     )
     (path "/f3858d36-0e5f-477a-81b2-f2f3059a6f61"
       (reference "Q1") (unit 1) (value "BC807") (footprint "Package_TO_SOT_SMD:SOT-23")
