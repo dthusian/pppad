@@ -1,0 +1,15 @@
+changelog between rev2 and rev3a:
+- added more decoupling caps on ws2812s
+- increased capacitance on some pwr supply filtering caps
+- added rc filter on the output of the he sensors
+- increased size of swd header to 2mm holes and changed bootsel from a pad to a 2mm hole header
+- rerouted adc traces to avoid usb
+- added a power on led and an activity led attached to a gpio on the rp2040
+- changed adc_aref from a voltage divider to using a shunt resistor
+- reduced board edge near the usb connector
+
+changelog between rev3a and rev3b:
+- moved everything to backside
+- added another key
+- removed aux buttons
+- removed top rgbs
