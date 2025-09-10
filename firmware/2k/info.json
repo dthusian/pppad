@@ -1,0 +1,36 @@
+{
+    "manufacturer": "Peter Zhou",
+    "keyboard_name": "ppPad 2k test v0.3",
+    "maintainer": "GodlyPeeta",
+    "bootloader": "rp2040",
+    "features": {
+        "mousekey": false,
+        "extrakey": false,
+        "console": true,
+        "command": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP18", "GP19"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "GET A URL LATEERRRRRRRRRRRRRRRRRRRRRRRR",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x3727",
+        "vid": "0xFEED"
+    },
+    "layout": "LAYOUT_ortho_2x2",
+    "layouts": {
+        "LAYOUT_ortho_1x2": {
+            "layout": [
+                { "label": "z", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "x", "matrix": [0, 1], "x": 1, "y": 0 },
+                { "label": "Grave", "matrix": [1, 0], "x": 0, "y": 1 },
+                { "label": "Escape", "matrix": [1, 1], "x": 1, "y": 1 }
+            ]
+        }
+    }
+}
